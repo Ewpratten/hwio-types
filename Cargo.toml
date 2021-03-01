@@ -1,10 +1,12 @@
 [package]
 name = "hwio-types"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Evan Pratten <ewpratten@gmail.com>"]
 edition = "2018"
+readme = "README.md"
+license-file = "LICENSE"
+description = "High level types and traits for basic hardware IO used in robotic control software"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
 measurements = "0.10.3"
